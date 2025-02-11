@@ -60,12 +60,12 @@ const Footer = () => (
     </div>
     <abbr title="Source Code" className={style.p}>
       <a
-        href="https://github.com/Harsh07Mishra/Portfolio"
+        href="https://github.com/Harsh07mishra/Portfolio"
         target="_blank"
         className={style.a}
         rel="noreferrer"
       >
-        Brought into being by <span className={style.span}>©</span> Harsh Mishra
+        Brought into being by <span className={style.span}></span> Harsh Mishra
       </a>
     </abbr>
   </motion.section>
