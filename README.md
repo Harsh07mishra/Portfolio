@@ -71,20 +71,11 @@
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Kaung Myat Kyaw**
+👤 **Harsh Mishra**
 
-- GitHub: [GitHub](https://github.com/Rhaegar121)
-- Twitter: [Twitter](https://twitter.com/Rhaegar121)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kaungmyatkyaw/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- **[Experience_Section]**
-- **[Footer_motion]**
+- GitHub: [GitHub](https://github.com/Harsh07mishra)
+- Twitter: [Twitter](https://twitter.com/HarshMishra2003)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/harsh-mishra2003/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,11 +96,3 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>"# Portfolio" 
