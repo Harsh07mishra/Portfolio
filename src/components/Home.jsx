@@ -18,13 +18,6 @@ const Home = () => (
           Harsh Mishra
         </motion.span>
       </p>
-      {/* <p className={style.intro}>
-        Also known as
-        {' '}
-        <motion.span variants={fadeIn('', '', 0.3, 1)} className={style.name}>
-          Barry
-        </motion.span>
-      </p> */}
       <motion.p variants={fadeIn("", "", 0.5, 1)} className={style.desc}>
         I am a full-stack web developer
       </motion.p>
