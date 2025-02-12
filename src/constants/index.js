@@ -46,6 +46,17 @@ import {
   fullstack,
 } from "../assets";
 
+// Import icons for experiences (you'll need to add these icons to your assets)
+import HCL_Certificate from "../assets/experience/HCL_Certificate.png";
+import HCL from "../assets/experience/HCL.png";
+import Infosys_Springboard from "../assets/experience/Infosys_Springboard.png";
+import Infosys_Springboard_Certificate from "../assets/experience/Infosys_Springboard_Certificate.png";
+import BB from "../assets/experience/BB.png";
+import BB_Photo from "../assets/experience/BB_Photo.png";
+// Add your company icons
+// import company2 from "../assets/company2.png";
+// import company3 from "../assets/company3.png";
+
 const social = [
   {
     id: 1,
@@ -82,6 +93,44 @@ const social = [
     icon: github,
     icon1: github1,
   },
+];
+const experiences = [
+  {
+    id: 1,
+    icon: HCL,
+    hoverImage: HCL_Certificate,
+    title: "Data Analytics Intern",
+    company: "HCL Tech",
+    duration: "Nov 2024 - Present",
+    text: "The TRAM Project is a comprehensive data analytics platform designed to streamline and optimize transportation operations across various modes. It leverages advanced data analytics and visualization tools to provide insights and support strategic decision-making for transportation providers.",
+  },
+  {
+    id: 2,
+    icon: Infosys_Springboard,
+    hoverImage: Infosys_Springboard_Certificate,
+    title: "AI/ML Intern",
+    company: "Infosys Springboard",
+    duration: "Oct 2024 - Dec 2024",
+    text: "The AI/ML Internship program is a comprehensive training program designed to equip participants with the skills and knowledge needed to become proficient in AI/ML technologies. The program covers a range of topics, including machine learning, deep learning, and natural language processing, and is delivered through a combination of theoretical lectures and hands-on projects.",
+  },
+  {
+    id: 3,
+    icon: BB,
+    hoverImage: BB_Photo,
+    title: "Vice-President",
+    company: "Binary Brains Club BBDITM",
+    duration: "Sep 2024 - Present",
+    text: "Built custom websites and applications for various clients, managing projects from concept to deployment.",
+  },
+  // {
+  //   id: 4,
+  //   icon: fullstack,
+  //   hoverImage: "/path/to/company3-image.jpg",
+  //   title: "Freelance Developer",
+  //   company: "Self-Employed",
+  //   duration: "2017 - 2019",
+  //   text: "Built custom websites and applications for various clients, managing projects from concept to deployment.",
+  // },
 ];
 
 const technologies = [
@@ -288,7 +337,7 @@ const projects = [
   //   {
   //     id: 7,
   //     name: "Tic Tac Toe",
-  //     desc: "Tic Tac Toe is a simple and classic game that is played on a 3x3 grid. The game is typically played with two players, one using “X” and the other using “O”. Mainly built with JavaScript.",
+  //     desc: "Tic Tac Toe is a simple and classic game that is played on a 3x3 grid. The game is typically played with two players, one using "X" and the other using "O". Mainly built with JavaScript.",
   //     tech: ["HTML5", "CSS3", "JavaScript"],
   //     img: tictactoe,
   //     carousel: [tictactoe1, tictactoe2, tictactoe3],
@@ -389,7 +438,7 @@ const services = [
     id: 3,
     icon: fullstack,
     title: "Problem-Solving & Optimization",
-    text: "I love tackling complex challenges through algorithmic problem-solving and performance optimization. With experience in DSA and competitive programming (practicing on LeetCode), I can write efficient code, optimize existing solutions, and improve application performance. Whether it’s database queries, API response time, or frontend rendering, I strive to make applications faster and more scalable.",
+    text: "I love tackling complex challenges through algorithmic problem-solving and performance optimization. With experience in DSA and competitive programming (practicing on LeetCode), I can write efficient code, optimize existing solutions, and improve application performance. Whether it's database queries, API response time, or frontend rendering, I strive to make applications faster and more scalable.",
   },
 ];
 
@@ -401,24 +450,37 @@ const navLinks = [
   },
   {
     id: 2,
+    name: "Experience",
+    url: "/#experience",
+  },
+  {
+    id: 3,
     name: "Service",
     url: "/#service",
   },
   {
-    id: 3,
+    id: 4,
     name: "Work",
     url: "/#work",
   },
   {
-    id: 4,
+    id: 5,
     name: "Testimonial",
     url: "/#testimonial",
   },
   {
-    id: 5,
+    id: 6,
     name: "Contact",
     url: "/#contact",
   },
 ];
 
-export { technologies, projects, testimonials, social, services, navLinks };
+export {
+  technologies,
+  projects,
+  experiences,
+  testimonials,
+  social,
+  services,
+  navLinks,
+};
