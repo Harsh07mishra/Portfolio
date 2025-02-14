@@ -402,22 +402,22 @@ const navLinks = [
   {
     id: 1,
     name: "About",
-    url: "/Portfolio/#about",
+    url: `${import.meta.env.BASE_URL}#about`,
   },
   {
     id: 2,
     name: "Experience",
-    url: "/Portfolio/#experience",
+    url: `${import.meta.env.BASE_URL}#experience`,
   },
   {
     id: 3,
     name: "Service",
-    url: "/Portfolio/#service",
+    url: `${import.meta.env.BASE_URL}#service`,
   },
   {
     id: 4,
     name: "Work",
-    url: "/Portfolio/#work",
+    url: `${import.meta.env.BASE_URL}#work`,
   },
   // {
   //   id: 5,
@@ -427,7 +427,7 @@ const navLinks = [
   {
     id: 5,
     name: "Contact",
-    url: "/Portfolio/#contact",
+    url: `${import.meta.env.BASE_URL}#contact`,
   },
 ];
 
