@@ -402,22 +402,22 @@ const navLinks = [
   {
     id: 1,
     name: "About",
-    url: "/#about",
+    url: "#about",
   },
   {
     id: 2,
     name: "Experience",
-    url: "/#experience",
+    url: "#experience",
   },
   {
     id: 3,
     name: "Service",
-    url: "/#service",
+    url: "#service",
   },
   {
     id: 4,
     name: "Work",
-    url: "/#work",
+    url: "#work",
   },
   // {
   //   id: 5,
@@ -427,7 +427,7 @@ const navLinks = [
   {
     id: 5,
     name: "Contact",
-    url: "/#contact",
+    url: "#contact",
   },
 ];
 
