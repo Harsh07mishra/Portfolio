@@ -402,32 +402,32 @@ const navLinks = [
   {
     id: 1,
     name: "About",
-    url: "#about",
+    url: "/Portfolio/#about",
   },
   {
     id: 2,
     name: "Experience",
-    url: "#experience",
+    url: "/Portfolio/#experience",
   },
   {
     id: 3,
     name: "Service",
-    url: "#service",
+    url: "/Portfolio/#service",
   },
   {
     id: 4,
     name: "Work",
-    url: "#work",
+    url: "/Portfolio/#work",
   },
   // {
   //   id: 5,
   //   name: "Testimonial",
-  //   url: "/#testimonial",
+  //   url: "/Portfolio/#testimonial",
   // },
   {
     id: 5,
     name: "Contact",
-    url: "#contact",
+    url: "/Portfolio/#contact",
   },
 ];
 
