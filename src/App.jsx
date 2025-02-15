@@ -10,10 +10,13 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import StarsCanvas from "./components/Stars";
 import Experience from "./components/Experience";
+import CanvasCursor from "./components/CanvasCursor";
 
 function App() {
   return (
     <ThemeProvider>
+      {/* Add the CanvasCursor here so it’s available on every page */}
+      <CanvasCursor />
       <div className="relative w-screen h-screen z-10">
         <Home />
         <StarsCanvas />
